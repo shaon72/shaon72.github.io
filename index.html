@@ -1,26 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My First Website</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+  </head>
 
-<body>
+  <body>
 
-  <h1>Hello everyone! 👋</h1>
-  <p>This is my first website hosted on GitHub Pages.</p>
+    <h1>Shaon Debnath</h1>
+    <p>Hello I'm Shaon, a passionate web and mobile app developer with 4 years of experience.</p>
 
-  <button onclick="showMessage()">Click me</button>
+    <section id="projects">
+      <h2>Projects</h2>
 
-  <script>
-    function showMessage() {
-      alert("You just clicked a button 🚀");
-    }
-  </script>
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>Appetiser
+            <a href="https://appetiser.vercel.app" class="icon-link" target="_blank" title="View Live Project">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </h3>
+          <p>A code compiler/interpreter built with Next.js, Flask and Docker.</p>
+        </article>
 
-</body>
+      </div>
+    </section>
+
+  </body>
 
 </html>
